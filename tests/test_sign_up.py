@@ -3,7 +3,7 @@ import unittest
 from selenium import webdriver
 
 from pages.sign_in import SignUp
-from utils import DRIVER_PATH, IMPLICITY_WAIT
+from utils.settings import DRIVER_PATH, IMPLICITY_WAIT
 
 
 class TestSignUpPage(unittest.TestCase):
